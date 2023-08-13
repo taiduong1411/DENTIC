@@ -12,7 +12,7 @@ function Form(props) {
     const onSubmit = (data) => {
         axios({
             method: 'post',
-            url: 'http://localhost:8000/api/user/register',
+            url: 'https://test-server-mluv.onrender.com/api/user/register',
             data: data,
             validateStatus: function (status) {
                 return status <= 300; // Reject only if the status code is greater than 300
