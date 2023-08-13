@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card, Col, Row } from 'antd';
 function InfoCard() {
     return (
 
