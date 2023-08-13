@@ -3,7 +3,8 @@ import axios from "axios";
 export const ApiClient = () => {
     // Create a new axios instance
     const api = axios.create({
-        baseURL: "http://localhost:8000/api/user/",
+        // baseURL: "http://localhost:8000/api/user/",
+        baseURL: "https://test-server-mluv.onrender.com/api/user/",
         headers: {
             "Content-Type": "application/json",
             "Accept": "application/json",
